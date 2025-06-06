@@ -1,0 +1,101 @@
+/* Dark mode styles for react-big-calendar */
+.calendar-dark-mode .rbc-calendar {
+  background-color: #1f2937;
+  color: #e5e7eb;
+}
+
+/* Header toolbar */
+.calendar-dark-mode .rbc-toolbar {
+  color: #e5e7eb;
+}
+
+.calendar-dark-mode .rbc-toolbar button {
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-toolbar button:hover {
+  background-color: #374151;
+}
+
+.calendar-dark-mode .rbc-toolbar button.rbc-active {
+  background-color: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+/* Month view */
+.calendar-dark-mode .rbc-month-view {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-month-header {
+  background-color: #374151;
+}
+
+.calendar-dark-mode .rbc-header {
+  color: #e5e7eb;
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-day-bg {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-off-range-bg {
+  background-color: #374151;
+}
+
+.calendar-dark-mode .rbc-today {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+/* Week/Day view */
+.calendar-dark-mode .rbc-time-view {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-time-header {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-time-content {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-time-gutter {
+  color: #e5e7eb;
+}
+
+.calendar-dark-mode .rbc-timeslot-group {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-allday-cell {
+  border-color: #4b5563;
+}
+
+/* Agenda view */
+.calendar-dark-mode .rbc-agenda-view table.rbc-agenda-table {
+  border-color: #4b5563;
+  color: #e5e7eb;
+}
+
+.calendar-dark-mode .rbc-agenda-view table.rbc-agenda-table thead > tr > th {
+  border-color: #4b5563;
+  color: #e5e7eb;
+  background-color: #374151;
+}
+
+.calendar-dark-mode .rbc-agenda-view table.rbc-agenda-table tbody > tr > td {
+  border-color: #4b5563;
+}
+
+.calendar-dark-mode .rbc-agenda-view table.rbc-agenda-table tbody > tr:hover {
+  background-color: #374151;
+}
+
+/* Date/time inputs in dark mode */
+.dark input[type="datetime-local"] {
+  color-scheme: dark;
+}
