@@ -23,14 +23,15 @@ const Sidebar = () => {
         {/* Charts Section */}
         <li className="mt-6 text-gray-400 uppercase text-xs tracking-wide">Charts</li>
         <li className="ml-3">
+          <Link to="/charts/line" className="hover:text-blue-400">Line Chart</Link>
+        </li>
+        <li className="ml-3">
           <Link to="/charts/bar" className="hover:text-blue-400">Bar Chart</Link>
         </li>
         <li className="ml-3">
           <Link to="/charts/pie" className="hover:text-blue-400">Pie Chart</Link>
         </li>
-        <li className="ml-3">
-          <Link to="/charts/line" className="hover:text-blue-400">Line Chart</Link>
-        </li>
+        
         <li className="ml-3">
           <Link to="/charts/area" className="hover:text-blue-400">Area Chart</Link>
         </li>

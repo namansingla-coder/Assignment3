@@ -8,7 +8,7 @@ import BarChartComponent from './components/BarChartComponent';
 import PieChartComponent from './components/PieChartComponent';
 import LineChartComponent from './components/LineChartComponent';
 import AreaChartComponent from './components/AreaChartComponent';
-import FinancialChart from './components/FinancialChartComponenet'; 
+import FinancialChart from './components/FinancialChartComponent'; 
 function App() {
   return (
       <Routes>

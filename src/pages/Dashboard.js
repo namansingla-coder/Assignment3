@@ -4,7 +4,7 @@ import LineChartComponent from "../components/LineChartComponent";
 
 const Dashboard = () => {
   return (
-    <div className="p-6 space-y-10">
+    <div className="p-6 space-y-10 dark:bg-gray-800">
       <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">
         Dashboard Overview
       </h1>
