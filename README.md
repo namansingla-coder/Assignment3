@@ -58,6 +58,11 @@ assignment3/
 ## Getting Started
 
 1. Clone the repository
+   ```
+   git clone <repository_url>
+   cd Assignment3
+   ```
+   
 2. Install dependencies:
    ```
    npm install
@@ -75,10 +80,6 @@ assignment3/
 - `npm run build` - Builds the app for production
 - `npm run eject` - Ejects the app from Create React App
 
-## Screenshots
+## Author
 
-[Add screenshots of your application here]
-
-## License
-
-[Add license information here]
+Naman Singla
